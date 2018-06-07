@@ -441,14 +441,52 @@ body{
   transform-style: preserve-3d;
   text-align:center;
   color:white;
-  font-size:20px;
+  font-size:50px;
   font-weight:bolder;
+  left:50%;
+  margin-top:0px;
+  margin-left:-723px;
+  
+  
 }
 @keyframes spinner {
   from {
     transform: rotateY(0deg);
   }
   to {
-    transform: rotateY(-360deg);
+    transform: rotateY(-720deg);
   }
 }
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: darkgray;
+  color: black;
+}
+
+.square{
+    width: 143px;
+    height: 10px;
+    Background-color: black;
+    margin-top:-10px;
+    z-index:5;
+}
+
