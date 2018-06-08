@@ -401,11 +401,12 @@ body{
   margin-left:-2px;
   margin-top:-16px;
   font-family: "Times New Roman", Times, serif;
+  text-decoration:none;
 }
 
 .btb a:hover {
   background:linear-gradient(black,darkgray);
-  color: white;
+  color: orange;
   cursor: pointer;
 }
 
@@ -424,11 +425,12 @@ body{
   margin-left:69px;
   margin-top:-16px;
   font-family: "Times New Roman", Times, serif;
+  text-decoration:none;
 }
 
 .btv a:hover {
   background:linear-gradient(black,darkgray);
-  color: white;
+  color: dodgerblue;
   cursor: pointer;
   transition:3s;
 }
@@ -488,9 +490,11 @@ body{
     Background-color: black;
     margin-top:-10px;
     z-index:5;
+    position:absolute;
 }
 
 .bio{
     color:white;
     font-size: 20px;
 }
+
